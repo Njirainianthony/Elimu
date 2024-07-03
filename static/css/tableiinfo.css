@@ -1,0 +1,24 @@
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 20px;
+}
+table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.button1{
+    background: orange;
+    color: white;
+}
+.button2{
+    background: red;
+    color: white;
+}
+.button3{
+    background: limegreen;
+    font-weight: bold;
+    color: white;
+}

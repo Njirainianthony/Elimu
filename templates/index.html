@@ -8,9 +8,18 @@
     <title>Homepage</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
 </head>
 <body>
 <h1>Welcome to ELIMU APP</h1>
+
+<a href="{% url 'form' %}" class="btn btn-primary">FORM</a>
+<a href="{% url 'gallery' %}" class="btn btn-success">GALLERY</a>
+<a href="{% url 'info' %}" class="btn btn-warning ">INFORMATION</a>
+<a href="{% url 'tableinfo' %}" class="btn btn-outline-danger">TABLE INFO</a>
+<a href="{% url 'login' %}" class="btn btn-outline-secondary">Login</a>
+<a href="{% url 'register' %}" class="btn btn-outline-info">Register</a>
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam architecto at beatae, commodi consequuntur deleniti, dolore enim excepturi facilis iusto nobis obcaecati omnis perferendis quae quia sit tenetur vitae.</span><span>Autem ea illo neque nisi non porro repellendus, voluptate. At delectus enim id impedit iusto laboriosam nostrum, placeat possimus quam quasi quisquam vel! Consequuntur illo possimus qui totam voluptate. Nemo?</span><span>Accusamus, ad aperiam assumenda at cupiditate delectus dignissimos doloribus est explicabo impedit ipsa, laboriosam libero magnam, maxime minima modi numquam odio porro praesentium quam quibusdam recusandae rerum sapiente unde voluptatum?</span></p>
 
 <div class="home">
